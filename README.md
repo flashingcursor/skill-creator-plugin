@@ -2,11 +2,23 @@
 
 Claude Code plugin containing the skill-creator skill.
 
+## Latest Release
+
+**Version 0.1.0** - First Production Release (2025-11-06)
+
+This is the first stable, production-ready release with the complete adaptive workflow system. See [CHANGELOG.md](CHANGELOG.md) for full release notes.
+
+**Key Features:**
+- ✅ Adaptive workflow modes (Quick Create, Guided Create, Default)
+- ✅ Engagement detection and response adaptation
+- ✅ Progress indicators and decision explanations
+- ✅ Full dual-platform support (Claude Code and claude.ai)
+
 ## What's Included
 
 This plugin provides the **skill-creator** skill, which helps you create custom Skills for Claude following official best practices.
 
-**Version**: 0.1.0-alpha.4
+**Version**: 0.1.0
 
 ## Installation
 
@@ -39,6 +51,27 @@ Once installed, the skill-creator skill is automatically available. Try:
 "Help me build a skill for data analysis"
 "Create a skill for [your purpose]"
 ```
+
+### Adaptive Workflow Modes
+
+The skill-creator adapts to your preferred interaction style:
+
+**Quick Create** - Fast and autonomous:
+```
+"Just quickly create a skill for API testing"
+```
+
+**Guided Create** - Collaborative and educational:
+```
+"Walk me through creating a data analysis skill"
+```
+
+**Default (Adaptive)** - Automatically adapts based on your feedback:
+```
+"Create a skill for processing documents"
+```
+
+The skill will create complete, functional skills autonomously, show you what it built with decision explanations, detect your engagement level, and adapt accordingly.
 
 ## What You Can Build
 
