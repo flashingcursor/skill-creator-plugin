@@ -4,21 +4,21 @@ Claude Code plugin containing the skill-creator skill.
 
 ## Latest Release
 
-**Version 0.1.0** - First Production Release (2025-11-06)
+**Version 0.1.1-beta.1** - UX Improvements Beta (2025-11-07)
 
-This is the first stable, production-ready release with the complete adaptive workflow system. See [CHANGELOG.md](CHANGELOG.md) for full release notes.
+This beta release includes UX improvements based on user feedback. See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Key Features:**
-- ✅ Adaptive workflow modes (Quick Create, Guided Create, Default)
-- ✅ Engagement detection and response adaptation
-- ✅ Progress indicators and decision explanations
-- ✅ Full dual-platform support (Claude Code and claude.ai)
+**Key Improvements:**
+- ✅ Concise summaries instead of overwhelming comprehensive reviews
+- ✅ Artifact creation for real-time file visibility
+- ✅ Download link repetition to prevent loss in scrollback
+- ✅ "Offer to explain" pattern for progressive disclosure
 
 ## What's Included
 
 This plugin provides the **skill-creator** skill, which helps you create custom Skills for Claude following official best practices.
 
-**Version**: 0.1.0
+**Version**: 0.1.1-beta.1
 
 ## Installation
 

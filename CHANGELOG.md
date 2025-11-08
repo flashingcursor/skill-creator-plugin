@@ -5,6 +5,45 @@ All notable changes to the skill-creator plugin will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1-beta.1] - 2025-11-07
+
+### UX Improvements Beta
+
+This beta release addresses user feedback about the adaptive workflow being too overwhelming.
+
+#### Changed
+
+**Phase 2: Concise Summary (Previously Comprehensive Review)**
+- Changed from comprehensive review to digestible summary format
+- Shows files created, key features (3-5 bullets), and prominent download link
+- Offers to explain decisions instead of explaining everything upfront
+- More inviting for specific questions vs overwhelming detail
+
+**Artifact Creation**
+- Added explicit guidance to create artifacts during Phase 1
+- Uses Write tool for each file (SKILL.md, REFERENCE.md, templates, scripts)
+- Opens artifact panes for real-time visibility during creation
+- Restores user-preferred behavior from earlier version
+
+**Download Link Management**
+- Repeats download links after explanations to prevent loss in scrollback
+- Repeats after making changes to maintain accessibility
+- Consistent format: "**Download:** [Download skill-name.zip]"
+- Reduces user frustration from having to scroll back
+
+#### Added
+
+**Documentation**
+- Updated Initial Review Pattern in REFERENCE.md to concise format
+- Added Artifact Creation Patterns section (134 lines)
+- Added Download Link Management section (75 lines)
+- Updated example interaction to show new concise format
+
+**User Feedback Addressed:**
+- ✓ Initial review was too comprehensive → now concise with offer to elaborate
+- ✓ Download links lost in scrollback → now repeated after responses
+- ✓ Missing artifact panes → now explicitly creates artifacts for visibility
+
 ## [0.1.0] - 2025-11-06
 
 ### First Production Release
