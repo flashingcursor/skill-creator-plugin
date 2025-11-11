@@ -2,25 +2,25 @@
 
 Claude Code plugin containing the "weaver" skill for creating custom Skills.
 
-> **Important**: This skill was renamed from "skill-creator" to "weaver" in v0.2.0 to avoid conflicts with Anthropic's default "skill-builder" skill.
+> **Important**: Directory renamed from "skill-creator" to "weaver-create" in v0.2.1 to fully avoid conflicts with Anthropic's default skills ("skill-builder" and "skill-creator").
 
 ## Latest Release
 
-**Version 0.2.0** - Renamed to Weaver (2025-11-07)
+**Version 0.2.1** - Directory Rename (2025-11-07)
 
-This release renames the skill to "weaver" to avoid conflicts with Anthropic's default skill-builder. See [CHANGELOG.md](CHANGELOG.md) for full release notes.
+This release renames the directory structure to fully avoid conflicts with Anthropic's default skills. See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 **Key Changes:**
-- ✅ Renamed skill from "skill-creator" to "weaver"
-- ✅ Added awareness note about Anthropic's skill-builder
-- ✅ Updated description to use "weaves" terminology
+- ✅ Renamed directory from "skill-creator/" to "weaver-create/"
 - ✅ Updated all documentation references
+- ✅ Added awareness note about both Anthropic "skill-builder" and "skill-creator"
+- ✅ Updated all installation paths
 
 ## What's Included
 
 This plugin provides the **weaver** skill, which helps you create custom Skills for Claude following official best practices.
 
-**Version**: 0.2.0
+**Version**: 0.2.1
 
 ## Installation
 

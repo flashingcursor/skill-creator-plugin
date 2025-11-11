@@ -5,6 +5,29 @@ All notable changes to the weaver plugin (formerly skill-creator) will be docume
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1] - 2025-11-07
+
+### Directory Rename
+
+This release renames the directory structure to fully avoid conflicts with Anthropic's default skills.
+
+#### Changed
+
+**Directory Structure**
+- Renamed directory from "skill-creator/" to "weaver-create/"
+- Updated plugin repository structure to match
+- Updated all file paths in documentation
+
+**Awareness Updates**
+- Updated awareness notes to mention both "skill-builder" AND "skill-creator"
+- Clarified that both Anthropic default skills may respond to requests
+- Improved guidance on explicitly invoking Skill Weaver
+
+**Documentation**
+- Updated all references from "skill-creator/" to "weaver-create/"
+- Updated installation paths and examples
+- Updated INSTALLATION.md, SHARING.md, README.md, and all templates
+
 ## [0.2.0] - 2025-11-07
 
 ### Renamed to Weaver
