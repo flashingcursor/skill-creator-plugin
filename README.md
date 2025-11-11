@@ -1,24 +1,26 @@
-# Skill Creator Plugin
+# Skill Weaver Plugin
 
-Claude Code plugin containing the skill-creator skill.
+Claude Code plugin containing the "weaver" skill for creating custom Skills.
+
+> **Important**: This skill was renamed from "skill-creator" to "weaver" in v0.2.0 to avoid conflicts with Anthropic's default "skill-builder" skill.
 
 ## Latest Release
 
-**Version 0.1.1-beta.1** - UX Improvements Beta (2025-11-07)
+**Version 0.2.0** - Renamed to Weaver (2025-11-07)
 
-This beta release includes UX improvements based on user feedback. See [CHANGELOG.md](CHANGELOG.md) for full release notes.
+This release renames the skill to "weaver" to avoid conflicts with Anthropic's default skill-builder. See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Key Improvements:**
-- ✅ Concise summaries instead of overwhelming comprehensive reviews
-- ✅ Artifact creation for real-time file visibility
-- ✅ Download link repetition to prevent loss in scrollback
-- ✅ "Offer to explain" pattern for progressive disclosure
+**Key Changes:**
+- ✅ Renamed skill from "skill-creator" to "weaver"
+- ✅ Added awareness note about Anthropic's skill-builder
+- ✅ Updated description to use "weaves" terminology
+- ✅ Updated all documentation references
 
 ## What's Included
 
-This plugin provides the **skill-creator** skill, which helps you create custom Skills for Claude following official best practices.
+This plugin provides the **weaver** skill, which helps you create custom Skills for Claude following official best practices.
 
-**Version**: 0.1.1-beta.1
+**Version**: 0.2.0
 
 ## Installation
 
@@ -29,7 +31,7 @@ This plugin provides the **skill-creator** skill, which helps you create custom 
 /plugin marketplace add flashingcursor/skill-weaver-marketplace
 
 # Install the skill-creator plugin
-/plugin install skill-creator@skill-weaver-marketplace
+/plugin install weaver@skill-weaver-marketplace
 ```
 
 ### Manual Installation

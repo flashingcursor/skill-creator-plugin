@@ -1,9 +1,34 @@
 # Changelog
 
-All notable changes to the skill-creator plugin will be documented in this file.
+All notable changes to the weaver plugin (formerly skill-creator) will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.2.0] - 2025-11-07
+
+### Renamed to Weaver
+
+This release renames the skill from "skill-creator" to "weaver" to avoid conflicts with Anthropic's default "skill-builder" skill.
+
+#### Changed
+
+**Skill Name and Branding**
+- Renamed skill from "skill-creator" to "weaver" in frontmatter
+- Updated description to use "weaves" terminology instead of "creates"
+- Changed skill display name to "Skill Weaver"
+- Updated plugin.json name field to "weaver"
+- Updated all documentation references
+
+**Added Awareness**
+- Added prominent note about Anthropic's default "skill-builder" skill
+- Provided guidance on how to explicitly invoke Skill Weaver when needed
+- Updated description keywords to include "weaving" and "crafting"
+
+**Breaking Changes**
+- ⚠️ Plugin name changed from "skill-creator" to "weaver"
+- ⚠️ Installation command changed to `/plugin install weaver@skill-weaver-marketplace`
+- ⚠️ Users will need to uninstall old "skill-creator" and install new "weaver" plugin
 
 ## [0.1.1-beta.1] - 2025-11-07
 
